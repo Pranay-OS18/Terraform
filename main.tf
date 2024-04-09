@@ -1,8 +1,3 @@
-/*This configuration will create a VPC and three subnets in aws region.
-An Internet Gateway will be created and attached to VPC, allowing public internet routing to all three subnets using Route Table.
-Also, Seven EC2's will be created in two different subnets with Allow-All rules defined in Security Group.
-All variable defined in vars.tf file.
-*/
 
 terraform {
   required_providers {
